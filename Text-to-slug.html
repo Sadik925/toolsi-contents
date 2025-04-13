@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Text to Slug Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Convert any string into a clean, SEO-friendly slug for use in URLs or links.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The Text to Slug tool instantly converts any phrase into a URL-safe slug. Just paste your text, and it transforms it into lowercase, hyphen-separated format—perfect for SEO, permalinks, and clean web structures. Whether you're building a blog, eCommerce site, or a dynamic CMS, this utility is a time-saver.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Designed for developers, content creators, and marketers, the tool removes special characters and trims unnecessary whitespace, ensuring your slugs are concise, readable, and ready for use. Simple, effective, and completely browser-based—no installation required.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a slug in web development?</h5>
+            <p className='!mt-[10px]'>A slug is a user-friendly part of a URL that typically represents the title or name of a page in lowercase with hyphens instead of spaces.</p>
+            <h5 className='font-bold'>Why should I use a slug instead of regular text in URLs?</h5>
+            <p className='!mt-[10px]'>Slugs improve readability, SEO, and consistency in URLs by eliminating spaces, special characters, and capital letters.</p>
+            <h5 className='font-bold'>Can I customize the output slug?</h5>
+            <p className='!mt-[10px]'>Yes. You can manually tweak the output after it's generated if you need to adjust certain words, symbols, or formatting.</p>
+            <h5 className='font-bold'>Does this tool work on mobile devices?</h5>
+            <p className='!mt-[10px]'>Absolutely. The Text to Slug Converter is fully responsive and works seamlessly across all devices, including smartphones and tablets.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
