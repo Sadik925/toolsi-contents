@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">JWT Encoder/Decoder</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Instantly encode or decode JSON Web Tokens for secure data transfer and debugging.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The JWT Encoder/Decoder tool is a fast, secure, and simple utility designed to help developers work with JSON Web Tokens. Easily convert payload data into a JWT format using the encoder, or break down any existing token to view its header, payload, and signature with the decoder. 
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you're debugging authentication tokens or learning about token-based security, this tool streamlines the process. It works entirely in the browser, ensuring privacy and security without transmitting your data anywhere. It's essential for developers working with APIs, OAuth, or custom token systems.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a JWT?</h5>
+            <p className='!mt-[10px]'>A JSON Web Token (JWT) is a compact, URL-safe token used to securely transmit information between parties. It consists of a header, payload, and signature.</p>
+            
+            <h5 className='font-bold'>Is it safe to decode JWTs in this tool?</h5>
+            <p className='!mt-[10px]'>Yes. This tool works entirely on the client-side using JavaScript. Your JWT data never leaves your browser, ensuring complete privacy and security.</p>
+            
+            <h5 className='font-bold'>Can I verify if a JWT is valid using this tool?</h5>
+            <p className='!mt-[10px]'>While this tool helps decode and view JWT components, verifying the token's validity depends on having the correct secret or public key, which isn't handled here.</p>
+            
+            <h5 className='font-bold'>What formats are supported in the payload?</h5>
+            <p className='!mt-[10px]'>The payload should be in JSON format. You can input any valid JSON structure, and the tool will encode or decode it accordingly.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
