@@ -1,0 +1,45 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Text Sorter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Quickly sort your text lines alphabetically or numerically with our smart and user-friendly Text Sorter tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>Text Sorter</b> helps you organize text data with ease. Whether you're managing a list of names, numbers, or any content with multiple lines, this tool sorts them in alphabetical, reverse, or numeric order instantly. It reduces manual sorting effort and ensures precision, especially for bulk text operations.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            It's ideal for students, developers, writers, and content managers who frequently work with structured data or text formatting. With just a paste and a click, your jumbled lines become cleanly sorted and ready for export, saving time and enhancing productivity.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+
+            <h5 className='font-bold'>What does the Text Sorter tool do?</h5>
+            <p className='!mt-[10px]'>The Text Sorter arranges lines of text in alphabetical or numerical order, either ascending or descending, based on your selection.</p>
+
+            <h5 className='font-bold'>Can I sort both numbers and words?</h5>
+            <p className='!mt-[10px]'>Yes, the tool allows you to sort both words and numbers. You can choose between alphabetical or numerical sorting for accurate results.</p>
+
+            <h5 className='font-bold'>Is this tool case-sensitive?</h5>
+            <p className='!mt-[10px]'>You can choose whether the sorting should be case-sensitive or not. Case-insensitive sorting treats uppercase and lowercase letters equally.</p>
+
+            <h5 className='font-bold'>Do I need to install anything to use the Text Sorter?</h5>
+            <p className='!mt-[10px]'>No installation is required. The Text Sorter works directly in your browser, making it fast, secure, and accessible anytime.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
