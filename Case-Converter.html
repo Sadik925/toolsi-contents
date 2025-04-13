@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Case Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Easily switch text between uppercase, lowercase, title, or sentence case formats in seconds.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The <b>Case Converter</b> is your go-to tool for fast and accurate text transformation. Whether you’re drafting blog posts, coding, writing legal content, or just formatting an essay, this tool instantly applies your selected case format. Say goodbye to manual typing errors and hello to productivity.
+            <br /><br />
+            Our tool supports uppercase, lowercase, title case, and sentence case conversions. Simply input your text, choose the desired format, and copy the output. Ideal for writers, editors, students, and developers alike, it streamlines your workflow and ensures consistency across your content.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            
+            <h5 className='font-bold'>What is a case converter?</h5>
+            <p className='!mt-[10px]'>A case converter is a tool that changes the capitalization style of text to formats like uppercase, lowercase, title case, or sentence case.</p>
+            
+            <h5 className='font-bold'>How do I use the Case Converter tool?</h5>
+            <p className='!mt-[10px]'>Paste or type your text into the input area, select the case format you want, and the tool will convert it instantly. You can then copy the result.</p>
+            
+            <h5 className='font-bold'>Why should I use a case converter?</h5>
+            <p className='!mt-[10px]'>It saves time and eliminates errors when formatting content for writing, programming, or publishing. It ensures consistency in presentation and tone.</p>
+            
+            <h5 className='font-bold'>Is the tool free and secure to use?</h5>
+            <p className='!mt-[10px]'>Yes, the tool is completely free to use and runs directly in your browser. No data is stored or sent to servers, ensuring full privacy.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
