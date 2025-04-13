@@ -1,0 +1,43 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">SHA384 Encrypt/Decrypt Tool</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Securely encrypt any string with SHA384 or verify data integrity using hash comparison.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>SHA384 Encrypt/Decrypt</b> is a simple yet powerful tool that allows you to generate secure SHA384 hashes from your input data. 
+            This tool ensures your sensitive information is transformed into a non-reversible string, commonly used in digital signatures, password storage, and blockchain integrity.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            While SHA384 encryption is one-way and cannot be truly decrypted, you can use it to validate if a string matches a stored hash. 
+            This is helpful in verifying file integrity or password authentication by comparing hash values.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is SHA384 encryption?</h5>
+            <p className='!mt-[10px]'>SHA384 is a cryptographic hashing algorithm from the SHA-2 family. It generates a fixed 384-bit hash from any input string, used to secure data integrity.</p>
+            <h5 className='font-bold'>Can I decrypt SHA384 hash?</h5>
+            <p className='!mt-[10px]'>No, SHA384 is a one-way encryption method. You can't reverse it, but you can compare hashes to check if the input matches the stored hash.</p>
+            <h5 className='font-bold'>Is SHA384 secure?</h5>
+            <p className='!mt-[10px]'>Yes, SHA384 is highly secure and suitable for high-security applications like digital certificates, blockchain, and secure authentication systems.</p>
+            <h5 className='font-bold'>What’s the difference between SHA384 and SHA256?</h5>
+            <p className='!mt-[10px]'>SHA384 provides a longer hash output than SHA256, offering more resistance to brute-force attacks. It's often preferred in environments demanding extra security.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
