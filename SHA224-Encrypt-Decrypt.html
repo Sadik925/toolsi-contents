@@ -1,0 +1,40 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">SHA224 Encrypt/Decrypt</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Securely hash your input with SHA224 or verify hashes using this reliable and free online tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The SHA224 Encrypt/Decrypt tool is a secure way to generate SHA-224 hashes from any input text. This hashing algorithm outputs a 224-bit hash value and is a part of the SHA-2 family, widely used in cryptographic applications for data integrity and verification.
+            <br /><br />
+            While SHA224 is a one-way hashing algorithm—meaning hashes cannot be "decrypted"—you can compare hashes to check data authenticity. Our tool makes it easy to compute and verify SHA224 hashes without needing any software installation.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+
+            <h5 className='font-bold'>What is SHA224 encryption?</h5>
+            <p className='!mt-[10px]'>SHA224 is a cryptographic hash function that produces a 224-bit hash. It's used for verifying data integrity and is part of the SHA-2 family.</p>
+
+            <h5 className='font-bold'>Can SHA224 be decrypted?</h5>
+            <p className='!mt-[10px]'>No, SHA224 is a one-way hash function. It cannot be reversed or decrypted. You can only compare the hash with a known input to verify integrity.</p>
+
+            <h5 className='font-bold'>Is SHA224 secure?</h5>
+            <p className='!mt-[10px]'>Yes, SHA224 is considered secure and less vulnerable to collision attacks than older algorithms like SHA1 or MD5, though SHA256 is more commonly used today.</p>
+
+            <h5 className='font-bold'>How do I use this SHA224 tool?</h5>
+            <p
