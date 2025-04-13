@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">TSV to JSON Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Convert TSV data to clean JSON format with a single click. Ideal for developers and data analysts.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            Our <b>TSV to JSON</b> tool allows you to quickly convert tab-separated values into structured JSON format. This is especially useful for developers, analysts, and data enthusiasts looking to streamline their workflow.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Simply paste or upload your TSV content, and the tool will instantly generate a valid JSON output. No need to write code—just copy and use your data in your app, project, or API.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is TSV and how is it different from CSV?</h5>
+            <p className='!mt-[10px]'>TSV stands for Tab-Separated Values, where each data field is separated by a tab character. CSV uses commas instead of tabs for separation.</p>
+
+            <h5 className='font-bold'>How accurate is the TSV to JSON conversion?</h5>
+            <p className='!mt-[10px]'>The conversion is highly accurate. It preserves the structure of your data, converting each line into a proper JSON object or array depending on your input.</p>
+
+            <h5 className='font-bold'>Is this tool free to use?</h5>
+            <p className='!mt-[10px]'>Yes, this tool is completely free to use with no limitations. You can convert unlimited TSV files without signing up.</p>
+
+            <h5 className='font-bold'>Can I upload a TSV file instead of pasting data?</h5>
+            <p className='!mt-[10px]'>Absolutely. The tool supports both manual input and file uploads. Just select your TSV file and the tool will handle the rest.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
