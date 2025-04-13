@@ -1,0 +1,42 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">SHA1 Encrypt/Decrypt</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Instantly encrypt and attempt to decrypt text using SHA1 hash functions with a simple, fast online tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>SHA1 Encrypt/Decrypt</b> is a handy tool for encoding sensitive data into SHA1 hash values. While SHA1 is a one-way cryptographic function that can’t be truly decrypted, this tool helps attempt to identify plaintext matches from a large dataset.
+            It is commonly used to verify data integrity, secure passwords, and ensure message authenticity.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Our tool makes it effortless to convert your text to SHA1 format and check it against known hashes. It’s fast, user-friendly, and perfect for developers, security analysts, and curious learners who want to explore how SHA1 works.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is SHA1 encryption?</h5>
+            <p className='!mt-[10px]'>SHA1 is a cryptographic hash function that converts input data into a fixed 160-bit (20-byte) hash value, used to ensure data integrity.</p>
+            <h5 className='font-bold'>Can SHA1 hashes be decrypted?</h5>
+            <p className='!mt-[10px]'>No, SHA1 is a one-way function. However, with enough computational power or precomputed databases, some hashes can be reversed by matching known inputs.</p>
+            <h5 className='font-bold'>Is SHA1 still secure for use?</h5>
+            <p className='!mt-[10px]'>SHA1 is considered weak for modern security needs. It has known vulnerabilities and is not recommended for secure cryptographic operations anymore.</p>
+            <h5 className='font-bold'>How does this tool help with decryption?</h5>
+            <p className='!mt-[10px]'>This tool compares your hash against a large database of known hashes to try and find a possible original string, simulating "decryption."</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
