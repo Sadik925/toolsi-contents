@@ -1,0 +1,45 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">JSON to XML Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Convert JSON data to structured XML format instantly with our fast and reliable online conversion tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            Our <b>JSON to XML Converter</b> helps you seamlessly convert your JSON data into structured and valid XML. Whether you're working on data integration, configuration files, or REST APIs, this tool simplifies your workflow by providing a quick and accurate transformation.
+        </p>
+        <p className='text-xl leading-[1.75] mt-4'>
+            Just paste your JSON content, hit the convert button, and get instant XML output. It's ideal for developers, data analysts, and anyone dealing with data exchange between systems. The tool is free, easy to use, and works entirely in your browser.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+
+            <h5 className='font-bold'>What is a JSON to XML converter?</h5>
+            <p className='!mt-[10px]'>It’s a tool that transforms JSON (JavaScript Object Notation) into XML (Extensible Markup Language), used for data formatting and communication.</p>
+
+            <h5 className='font-bold'>Is the JSON to XML conversion accurate?</h5>
+            <p className='!mt-[10px]'>Yes, our tool ensures every JSON key-value structure is accurately mapped to a corresponding XML node with proper nesting and hierarchy.</p>
+
+            <h5 className='font-bold'>Do I need to install anything to use this tool?</h5>
+            <p className='!mt-[10px]'>No installation is required. The tool works directly in your browser and doesn’t require any additional setup or software.</p>
+
+            <h5 className='font-bold'>Can I convert large JSON files?</h5>
+            <p className='!mt-[10px]'>Yes, you can convert large JSON files, but performance may vary based on your browser and system capacity. It's optimized for standard use cases.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
