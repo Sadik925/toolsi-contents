@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">Code to Image Converter</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Instantly convert your code snippets into beautiful, shareable images with customizable styling and themes.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The Code to Image Converter lets you turn your code into visually appealing images perfect for blog posts, presentations, or social media. Just paste your code, choose from different themes, fonts, and styles, and generate a high-resolution image instantly.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you're sharing tips on Twitter or documenting your work, this tool simplifies it with easy customization, syntax highlighting, and export options. No design skills required—just copy, style, and share your beautiful code snapshots.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>How do I use the Code to Image Converter?</h5>
+            <p className='!mt-[10px]'>Paste your code into the editor, customize the style and theme, and click the convert button to download your image.</p>
+            <h5 className='font-bold'>Can I change the font and background color?</h5>
+            <p className='!mt-[10px]'>Yes, the tool provides several font styles, background colors, and syntax themes to match your branding or personal style.</p>
+            <h5 className='font-bold'>Is the output image high quality?</h5>
+            <p className='!mt-[10px]'>Absolutely. You’ll get a high-resolution PNG or JPG image suitable for social media, blogs, and presentations.</p>
+            <h5 className='font-bold'>Do I need to install anything?</h5>
+            <p className='!mt-[10px]'>No installation is required. This is a fully web-based tool that works directly from your browser.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
