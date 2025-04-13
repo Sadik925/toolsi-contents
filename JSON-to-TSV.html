@@ -1,0 +1,45 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">JSON to TSV Converter</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Easily convert JSON data to clean TSV format for quick analysis or import tasks.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The JSON to TSV converter helps transform complex JSON structures into a well-organized Tab-Separated Values (TSV) format. It’s ideal for users who need to export or manipulate data for spreadsheets, database imports, or bulk edits. 
+            Simply paste your JSON input, click convert, and download or copy the clean TSV output instantly.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            This tool supports nested JSON parsing, provides quick previews, and ensures that your converted data maintains its original structure and meaning. It’s perfect for developers, data analysts, and content managers needing fast, reliable conversions.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a TSV file?</h5>
+            <p className='!mt-[10px]'>A TSV (Tab-Separated Values) file is a plain text format where columns of data are separated by tab characters. It's used for easy data exchange.</p>
+            
+            <h5 className='font-bold'>Why convert JSON to TSV?</h5>
+            <p className='!mt-[10px]'>Converting JSON to TSV allows you to view structured data in a table-like format, which is easier to import into spreadsheet tools or databases.</p>
+            
+            <h5 className='font-bold'>Does this tool support nested JSON?</h5>
+            <p className='!mt-[10px]'>Yes, the converter flattens nested JSON where possible and presents it in a linear TSV format while retaining the structure and key values.</p>
+            
+            <h5 className='font-bold'>Is my data safe when using this tool?</h5>
+            <p className='!mt-[10px]'>Absolutely. All conversions are processed in the browser, meaning your data is never sent to a server or stored externally.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
