@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Random Word Generator</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Generate random words instantly for writing, brainstorming, naming, and creativity sparks.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            The <b>Random Word Generator</b> is a simple and powerful tool for instantly producing random words. Whether you’re a writer, teacher, student, or developer, this tool helps trigger creativity, inspire ideas, or test systems needing text input. Just click to generate words that are meaningful, quirky, or even just plain fun.
+        </p>
+        <p className='text-xl leading-[1.75] mt-4'>
+            You can use it for <i>creative writing prompts</i>, language games, vocabulary challenges, or as placeholders in content design. It’s fast, user-friendly, and endlessly versatile—perfect for when you need quick inspiration or a fresh perspective. No login required, use it anytime!
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a random word generator used for?</h5>
+            <p className='!mt-[10px]'>It’s used for writing inspiration, vocabulary exercises, naming ideas, design mockups, and testing applications that require text input.</p>
+
+            <h5 className='font-bold'>Can I generate more than one word at a time?</h5>
+            <p className='!mt-[10px]'>Yes, most random word generators let you specify how many words to generate, helping you get results in bulk if needed.</p>
+
+            <h5 className='font-bold'>Are the words truly random?</h5>
+            <p className='!mt-[10px]'>Yes, the tool uses algorithms to randomly select words from a curated dictionary, ensuring variety with each click.</p>
+
+            <h5 className='font-bold'>Is this tool free to use?</h5>
+            <p className='!mt-[10px]'>Absolutely! This tool is completely free and doesn’t require any sign-up. You can use it as often as you like.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
