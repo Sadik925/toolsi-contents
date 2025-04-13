@@ -1,0 +1,45 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">JSON to CSV Converter</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Easily convert structured JSON data to clean CSV format for spreadsheets.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            Our <b>JSON to CSV Converter</b> helps you instantly transform JSON data into a CSV file format for easy readability and use in spreadsheet tools like Excel and Google Sheets. Whether you're dealing with API responses, data logs, or structured datasets, this tool makes conversion quick and reliable.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Simply paste your JSON into the input area, and the tool will automatically format and flatten it into comma-separated values. This converter supports nested objects, arrays, and complex structures with smart flattening logic to preserve important data relationships. Clean, export, and go!
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            
+            <h5 className='font-bold'>What is a JSON to CSV converter?</h5>
+            <p className='!mt-[10px]'>A JSON to CSV converter transforms JSON data structures into tabular CSV format, making it easier to analyze and work with in spreadsheet applications.</p>
+            
+            <h5 className='font-bold'>Can this tool handle nested JSON objects?</h5>
+            <p className='!mt-[10px]'>Yes, the tool smartly flattens nested JSON structures, converting them into a readable CSV format while preserving the hierarchy using dot notation.</p>
+            
+            <h5 className='font-bold'>Is my data stored or shared?</h5>
+            <p className='!mt-[10px]'>No, your data is never stored or shared. All conversions are handled in your browser, ensuring full privacy and security of your information.</p>
+            
+            <h5 className='font-bold'>Can I download the converted CSV file?</h5>
+            <p className='!mt-[10px]'>Yes, once your JSON is converted, you can instantly download the CSV file to use in Excel, Google Sheets, or any compatible program.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
