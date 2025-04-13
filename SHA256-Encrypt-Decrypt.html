@@ -1,0 +1,44 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+    <div className="flex items-center justify-center mb-4">
+        <Type className="w-8 h-8 text-indigo-600 mr-2" />
+        <h1 className="text-3xl font-bold text-gray-900">SHA256 Encrypt/Decrypt Tool</h1>
+    </div>
+    <p className="text-gray-600 w-[550px] mx-auto">Instantly encrypt or decrypt text using the SHA256 algorithm with our fast and secure online tool.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>SHA256 Encrypt/Decrypt Tool</b> allows you to securely convert plain text into a SHA256 hash. Though SHA256 is a one-way cryptographic function and cannot be truly "decrypted," our tool helps verify data integrity by comparing hashes. It's a must-have for developers, cybersecurity experts, and data analysts.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Simply input your text, hit the encrypt button, and get your secure SHA256 hash instantly. Use it for password hashing, API validation, or data security tasks. Our tool is fast, accurate, and entirely browser-based, meaning your data never leaves your device.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>Can SHA256 encryption be reversed?</h5>
+            <p className='!mt-[10px]'>No, SHA256 is a one-way hashing algorithm and cannot be decrypted. You can only compare input values to check for a match.</p>
+
+            <h5 className='font-bold'>Is SHA256 secure for storing passwords?</h5>
+            <p className='!mt-[10px]'>SHA256 is more secure than older algorithms, but it's recommended to use it with salting and key stretching for password storage.</p>
+
+            <h5 className='font-bold'>Does this tool store or log my input?</h5>
+            <p className='!mt-[10px]'>No, all operations happen in your browser. Your input is never stored or transmitted anywhere.</p>
+
+            <h5 className='font-bold'>What is the length of a SHA256 hash?</h5>
+            <p className='!mt-[10px]'>A SHA256 hash always produces a fixed 64-character hexadecimal string, regardless of input size.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
