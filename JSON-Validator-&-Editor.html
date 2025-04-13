@@ -1,0 +1,41 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">JSON Validator & Editor</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Quickly validate and edit JSON data online with syntax highlighting, error checking, and formatting support.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            <b>JSON Validator & Editor</b> is a powerful online tool that helps you validate, format, and beautify your JSON data with ease. Instantly detect errors in your code and apply formatting to make it easier to read or debug. This tool is essential for developers working with APIs or structured data formats.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you're pasting raw JSON or editing complex objects, our intuitive interface with syntax highlighting, error notifications, and real-time updates ensures accuracy and efficiency. It’s fast, secure, and works perfectly on both desktop and mobile devices.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+            <h5 className='font-bold'>What is a JSON Validator?</h5>
+            <p className='!mt-[10px]'>A JSON Validator checks your JSON data for proper syntax and formatting, helping ensure it complies with JSON standards.</p>
+            <h5 className='font-bold'>Can I edit my JSON data using this tool?</h5>
+            <p className='!mt-[10px]'>Yes, you can freely edit JSON in the input field. The tool will instantly show errors and formatted results as you type.</p>
+            <h5 className='font-bold'>Does this tool support large JSON files?</h5>
+            <p className='!mt-[10px]'>Yes, it is optimized to handle large and deeply nested JSON files while maintaining high performance and responsiveness.</p>
+            <h5 className='font-bold'>Is my JSON data stored or shared?</h5>
+            <p className='!mt-[10px]'>No, your JSON data is processed locally in your browser and never stored, shared, or sent to any server—ensuring complete privacy.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
