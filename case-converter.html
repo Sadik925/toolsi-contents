@@ -1,10 +1,33 @@
+        <div>
+            <div className="text-center mb-8 pt-10">
+            <div className="flex items-center justify-center mb-4">
+                <Type className="w-8 h-8 text-indigo-600 mr-2" />
+                <h1 className="text-3xl font-bold text-gray-900">Case Converter</h1>
+            </div>
+            <p className="text-gray-600 w-[550px] mx-auto">Transform your text into any case format instantly.</p>
+            </div>
+            <div className="flex flex-col">
+                <TopBar />
+                <div className="flex flex-1 overflow-hidden">
+                    <LeftSideBar />
+                    <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                        <CaseConverterTool />
+                    </div>
+                    <RightSideBar />
+                </div>
+                <BottomBar></BottomBar>
+            </div>
+            <RelatedTools></RelatedTools>
             <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
-                <p className='text-xl text-gray-700 leading-[1.75]'><p>The <strong>Case Converter</strong> tool allows you to change the letter case of any text instantly. Just type or paste your content into the input box, choose your desired case style—<strong>uppercase, lowercase, title case, or sentence case</strong>—and the tool will convert your text on the spot. You can then copy and use the formatted text wherever needed.</p><p>Whether you're a <strong>student, writer, editor, or developer</strong>, this tool simplifies text formatting by eliminating the need for manual editing. It's ideal for converting headings, legal documents, blog titles, or uniform content formatting. Best of all, it's <strong>free, fast, and easy to use.</strong></p></p>
+                <p className='text-xl text-gray-700 leading-[1.75]'>The <b>Case Converter</b> tool allows you to change the letter case of any text instantly. Just type or paste your content into the input box, choose your desired case style— <b>uppercase, lowercase, title case, or sentence case</b>—and the tool will convert your text on the spot. You can then copy and use the formatted text wherever needed.
+                Whether you're a <b>student, writer, editor, or developer,</b> this tool simplifies text formatting by eliminating the need for manual editing. It's ideal for converting headings, legal documents, blog titles, or uniform content formatting. Best of all, it's <b>free, fast, and easy to use.</b></p>
                 <div className='text-lg pt-10 space-y-6'>
-                    <p className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></p>
+                    <p className='text-2xl'><strong>Faqs</strong></p>
                     <p><strong>How do I convert text to proper case (Capitalize Each Word)?</strong><strong><br/></strong> To quickly change between lowercase, UPPERCASE, and Capitalize Each Word, select the text and press <strong>Shift + F3</strong> (in applications like Microsoft Word). In our Case Converter tool, simply choose <strong>Title Case</strong> to capitalize the first letter of each word.</p>
                     <p><strong>What does it mean to "change text to uppercase"?</strong><strong><br/></strong> Changing text to <strong>uppercase</strong> means converting all letters in the selected text to <strong>capital letters</strong> (e.g., "example" becomes "EXAMPLE").</p>
                     <p><strong>How do I convert uppercase text to lowercase?</strong><strong><br/></strong> Select the <strong>Lowercase</strong> option in the Case Converter. This changes all characters in your text to <strong>small letters</strong> (e.g., "HELLO" becomes "hello").</p>
                     <p><strong>What is Sentence Case in the Case Converter?</strong><strong><br/></strong> <strong>Sentence case</strong> capitalizes only the <strong>first letter</strong> of the first word in a sentence, just like how you'd write a normal sentence.</p>
                 </div>
             </div>
+            <Testimonial1></Testimonial1>
+        </div>
