@@ -1,0 +1,45 @@
+<div>
+    <div className="text-center mb-8 pt-10">
+        <div className="flex items-center justify-center mb-4">
+            <Type className="w-8 h-8 text-indigo-600 mr-2" />
+            <h1 className="text-3xl font-bold text-gray-900">Online Image Cropper Tool</h1>
+        </div>
+        <p className="text-gray-600 w-[550px] mx-auto">Crop any image instantly with precision. Upload, crop, and save your image in seconds, hassle-free and for free.</p>
+    </div>
+    <div className="flex flex-col">
+        <TopBar />
+        <div className="flex flex-1 overflow-hidden">
+            <LeftSideBar />
+            <div className="flex-1 flex flex-col overflow-y-auto pt-5">
+                <CaseConverterTool />
+            </div>
+            <RightSideBar />
+        </div>
+        <BottomBar></BottomBar>
+    </div>
+    <RelatedTools></RelatedTools>
+    <div className='max-w-[1440px] mx-auto lg:px-20 lg:py-40 md:px-10 md-py-10 px-5 py-10 '>
+        <p className='text-xl leading-[1.75]'>
+            Our <b>Image Cropper</b> is a simple yet powerful tool that lets you crop images to your desired size with ease. Just upload your image, adjust the cropping area, and download your newly cropped image — no signup or software required.
+        </p>
+        <p className='text-xl leading-[1.75]'>
+            Whether you're a designer, developer, student, or just need a quick crop for a profile picture, this tool is designed for speed, simplicity, and accuracy. It's completely browser-based and optimized for mobile and desktop use.
+        </p>
+        <div className='text-lg pt-10 space-y-6'>
+            <h3 className='text-2xl'><strong>Frequently Asked Questions (FAQs)</strong></h3>
+
+            <h5 className='font-bold'>How do I crop an image using this tool?</h5>
+            <p className='!mt-[10px]'>Click the upload button, select your image, drag to adjust the cropping area, then click the download button to save your cropped image.</p>
+
+            <h5 className='font-bold'>Is this tool free to use?</h5>
+            <p className='!mt-[10px]'>Yes, the Image Cropper is completely free with no hidden costs or premium features.</p>
+
+            <h5 className='font-bold'>What image formats are supported?</h5>
+            <p className='!mt-[10px]'>You can upload and crop JPG, PNG, or WEBP images. Output format will match the original image type.</p>
+
+            <h5 className='font-bold'>Will my images be stored or shared?</h5>
+            <p className='!mt-[10px]'>No. All cropping is done in your browser, and no image data is uploaded or stored on our servers.</p>
+        </div>
+    </div>
+    <Testimonial1></Testimonial1>
+</div>
